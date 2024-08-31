@@ -1,11 +1,5 @@
-## Sidefolio - Portfolio website template
+## personal-portfolio
 
-As seen on [Aceternity UI](https://ui.aceternity.com/templtes/sidefolio)
+Created with Next.js, Tailwind.CSS, framer-motion.
 
-## Built with
-- Next.js
-- Tailwindcss
-- Framer motion
-- MDX
-
-Checkout all the templates at [Aceternity UI](https://ui.aceternity.com/templates)
+#Stil under development.
