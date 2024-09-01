@@ -3,13 +3,14 @@ import { Heading } from "@/components/Heading";
 import { Highlight } from "@/components/Highlight";
 import { Paragraph } from "@/components/Paragraph";
 import { Products } from "@/components/Products";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <Container>
+    <div className="flex flex-row justify-start items-center gap-4 mb-10">
       <span className="text-4xl">👋</span>
       <Heading className="font-black">Cześć! Jestem Marcin</Heading>
+    </div>
       <Paragraph className="max-w-xl mt-4">
         Jestem <Highlight>Fullstack Developerem</Highlight>, który uwielbia tworzyć aplikacje Webowe.
       </Paragraph>

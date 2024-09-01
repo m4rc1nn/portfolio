@@ -15,7 +15,7 @@ export const Products = () => {
       <div className="grid grid-cols-1  gap-10">
         {products.map((product: Product, idx: number) => (
           <motion.div
-            key={product.href}
+            key={idx}
             initial={{
               opacity: 0,
               x: -50,
@@ -27,14 +27,14 @@ export const Products = () => {
             transition={{ duration: 0.2, delay: idx * 0.1 }}
           >
             <Link
-              href={product.slug ? `/projects/${product.slug}` : product.href}
+              href={`/projects/${product.slug}`}
               key={product.href}
               className="group flex flex-col md:flex-row gap-4 md:gap-y-0 rounded-md"
             >
               <Image
                 src={product.thumbnail}
                 alt="thumbnail"
-                className="rounded-md max-w-full md:max-w-[200px]"
+                className="rounded-md max-w-full md:max-w-[200px] object-contain"
               />
               <div className="flex flex-col justify-between">
                 <div>
@@ -49,9 +49,9 @@ export const Products = () => {
                   </Paragraph>
                 </div>
                 <div className="flex flex-wrap mt-4 gap-2">
-                  {product.stack?.map((stack: string) => (
+                  {product.stack?.map((stack: string, index: number) => (
                     <span
-                      key={stack}
+                      key={index}
                       className="text-xs  md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary"
                     >
                       {stack}

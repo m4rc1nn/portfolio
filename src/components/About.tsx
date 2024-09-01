@@ -11,6 +11,7 @@ export default function About() {
     "/images/about-1.jpg",
     "/images/about-2.jpg",
     "/images/about-3.jpg",
+    "/images/about-4.jpg",
   ];
   return (
     <div>
