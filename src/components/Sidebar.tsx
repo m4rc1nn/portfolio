@@ -93,6 +93,7 @@ export const Navigation = ({
         <Link
           key={link.href}
           href={link.href}
+          target="_blank"
           className={twMerge(
             "text-secondary hover:text-accent transition duration-200 flex items-center space-x-2 py-2 px-2 rounded-md text-sm"
           )}
