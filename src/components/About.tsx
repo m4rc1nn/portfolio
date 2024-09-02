@@ -43,27 +43,45 @@ export default function About() {
       </div>
 
       <div className="max-w-4xl">
-        <Paragraph className=" mt-4">
-        Jestem Marcin Kowalczyk, programista z pasją do tworzenia solidnych rozwiązań programistycznych. <br /> Cieszę się, że trafiłeś na moją stronę!
+      <Paragraph>
+      Cześć,
+        </Paragraph>
+        <Paragraph>
+        nazywam się Marcin Kowalczyk.
         </Paragraph>
         <Paragraph className=" mt-4">
-        Moja przygoda z programowaniem rozpoczęła się, gdy miałem 13 lat. Wtedy, na lekcjach informatyki, odkryłem Scratcha – prostą aplikację, dzięki której mogłem tworzyć własne gry za pomocą kilku kliknięć. Zafascynowała mnie możliwość tworzenia czegoś własnoręcznie, i tak rozpoczęła się moja podróż w świat kodowania.
+        Jestem programistą z pasją do tworzenia solidnych rozwiązań programistycznych.
+        </Paragraph>
+        <Paragraph>
+        Cieszę się, że trafiłeś na moją stronę!
+        </Paragraph>
+        <Paragraph className=" mt-4">
+        Moja przygoda z programowaniem rozpoczęła się, gdy miałem 13 lat. Wtedy, na lekcjach informatyki, odkryłem Scratcha – prostą aplikację, dzięki której mogłem tworzyć własne gry za pomocą kilku kliknięć. Zafascynowała mnie możliwość tworzenia czegoś własnoręcznie — i tak właśnie rozpoczęła się moja podróż w świat kodowania.
         </Paragraph>
 
         <Paragraph className=" mt-4">
-        Kiedy Scratch przestał mi wystarczać, zacząłem zgłębiać tajniki Minecrafta, mojej ulubionej wtedy gry. Tworzenie serwerów multiplayer dało mi okazję do pisania pierwszego kodu – używałem wtedy języka Skript do tworzenia skryptów na platformie Spigot dla serwerów Minecraft. Moje osiągnięcia w tej dziedzinie można śledzić na forum, na którym działam aktywnie od 2017 roku, będąc jednym z najbardziej zasłużonych członków <Link className=" text-blue-500 hover:underline" href={"https://skript.pl/profil/3406-krejzolekpro/"} target="_blank">zobacz profil</Link>.
+        Po jakimś czasie Scratch przestał mi wystarczać, więć zacząłem zgłębiać tajniki Minecrafta — wtedy mojej ulubionej gry. Tworzenie serwerów multiplayer dało mi okazję do pisania pierwszego kodu – używałem wtedy języka Skript do tworzenia skryptów na platformie Spigot dla serwerów Minecraft. Moje osiągnięcia w tej dziedzinie można śledzić na forum, na którym działam aktywnie od 2017 roku, i jestem jednym z najbardziej zasłużonych członków <Link className=" text-blue-500 hover:underline" href={"https://skript.pl/profil/3406-krejzolekpro/"} target="_blank">zobacz profil</Link>.
         </Paragraph>
         <Paragraph className=" mt-4">
         Kiedy skrypty zaczęły nadmiernie obciążać serwery, postanowiłem przesiąść się na Javę z biblioteką Bukkit. To dało mi solidne podstawy w programowaniu obiektowym – zrozumiałem, jak działa dziedziczenie, polimorfizm, zarządzanie zależnościami i architektura oparta na klasach oraz interfejsach. W międzyczasie, aby poszerzyć swoje umiejętności, zacząłem również eksperymentować z webówką, tworząc proste strony w HTML, CSS, JavaScript oraz PHP.
         </Paragraph>
         <Paragraph className=" mt-4">
-        Wkrótce potem skoncentrowałem się na programowaniu webowym, które stało się moją główną ścieżką kariery. W 2022 roku przeprowadziłem się do Poznania, gdzie rozpocząłem swoją pierwszą komercyjną pracę w firmie Custommerce jako FullStack Developer. Tam na co dzień korzystam z frameworków takich jak Next.js, React.js i Node.js, pracując nad wewnętrznymi systemami firmowymi.
+        Wkrótce potem skoncentrowałem się na programowaniu webowym, które stało się moją główną ścieżką kariery. 
         </Paragraph>
         <Paragraph className=" mt-4">
-        Obecnie w czasie wolnym zgłębiam różne obszary programowania, poszerzając swoje kompetencje w technologiach i narzędziach, które mnie fascynują. Dodatkowo, rozwijam swoją wiedzę w zakresie moich pasji – eksploracji kosmosu, motoryzacji oraz szachów, które, podobnie jak programowanie, wymagają strategicznego myślenia i precyzji.
+        W 2022 roku przeprowadziłem się do Poznania, gdzie rozpocząłem swoją pierwszą komercyjną pracę w firmie Custommerce jako FullStack Developer. Na co dzień korzystam z frameworków takich jak Next.js, React.js i Node.js, pracując nad wewnętrznymi systemami firmowymi.
         </Paragraph>
         <Paragraph className=" mt-4">
-        Dziękuję, że poświęciłeś czas na przeczytanie mojej historii. Mam nadzieję, że zaciekawił Cię ten krótki opis. Jeśli masz jakiekolwiek pytania, chętnie na nie odpowiem!
+        Obecnie w czasie wolnym zgłębiam różne obszary programowania, poszerzając swoją wiedzę i kompetencje w technologiach i narzędziach, które mnie fascynują.
+        </Paragraph>
+        <Paragraph>
+        Dodatkowo rozwijam swoją wiedzę w zakresie moich pasji – eksploracji kosmosu, motoryzacji oraz szachów, które, podobnie jak programowanie, wymagają strategicznego myślenia i precyzji. 
+        </Paragraph>
+        <Paragraph className=" mt-4">
+        Dziękuję, że poświęciłeś czas na przeczytanie mojej historii. Mam nadzieję, że zaciekawił Cię ten krótki opis. 
+        </Paragraph>
+        <Paragraph className="mt-4">
+        Jeśli masz jakiekolwiek pytania, chętnie na nie odpowiem! <Link className="text-blue-500 hover:underline" href={"/contact"} target="_blank">Kontakt</Link>
         </Paragraph>
       </div>
     </div>
