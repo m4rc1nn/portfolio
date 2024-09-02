@@ -1,6 +1,6 @@
 # Stil under development.
 
-## personal-portfolio
+## Marcin Kowalczyk - FullStack Developer
 
 Created with Next.js, Tailwind.CSS, framer-motion and TypeScript.
 
