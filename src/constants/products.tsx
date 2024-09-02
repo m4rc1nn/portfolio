@@ -107,10 +107,10 @@ export const products = [
     content: (
       <div>
         <p>
-        Moim zadania było dokładne odwzorowanie projektu graficznego, który został stworzony zgodnie z key visual marki Remington. Podczas tworzenia landing page'a Remington One dbałem o to, żeby strona była zgodna z dobrymi zasadami programowania oraz jednocześnie przyjazna dla użytkowników. W trakcie kampanii otrzymałem zlecenie na ASAP na dodadnie formularza mailego, który miał zostać spięty razem z zaszyfrowaną bazą danych osobowych (RODO) z możliwością przeglądania zgłoszeń przez użytkowników z odpowiednimi uprawnieniami - udało się temat zamknąć 2 dni przed deadlinem.
-
-        Moim zadaniem było również dodanie niezbędnych narzędzi analitycznych, takich jak: Google Tag Manager, Cookie boota, Captcha, Meta Pixel.
+        Moim zadania było dokładne odwzorowanie projektu graficznego, który został stworzony zgodnie z key visual marki Remington. Podczas tworzenia landing page`a Remington One dbałem o to, żeby strona była zgodna z dobrymi zasadami programowania oraz jednocześnie przyjazna dla użytkowników. W trakcie kampanii otrzymałem zlecenie na ASAP na dodadnie formularza mailego, który miał zostać spięty razem z zaszyfrowaną bazą danych osobowych (RODO) z możliwością przeglądania zgłoszeń przez użytkowników z odpowiednimi uprawnieniami - udało się temat zamknąć 2 dni przed deadlinem.
         </p>
+        <p>
+        Moim zadaniem było również dodanie niezbędnych narzędzi analitycznych, takich jak: Google Tag Manager, Cookie boota, Captcha, Meta Pixel.</p>
       </div>
     ),
   },
@@ -127,7 +127,8 @@ export const products = [
         <p>
         Moim zadania było stworzenie strony zawierającej formularz dla klienta, po którego wypełnieniu otrzymywał wycenę projektu.
         Algorytm miał za zadanie analizować wiele krytycznych danych dot. wyceny i perfekcyjnie dobierać cenę jednostkową do zmieniających się innych warunków projektu wybranych przez klienta. Wypełnione formularze były zapisywane w bazie i na ich podstawię była generowana umowa przez inny system.
-
+        </p>
+        <p>
         Wszystko zostało spięte z prostym CMSem do sprawdzania wypełnionych formularzy i zapamiętywania ich.
         </p>
       </div>
@@ -143,7 +144,7 @@ export const products = [
     content: (
       <div>
         <p>
-        Moim zadania było stworzenie aplikacji, która zczytuje aktywne projekty z aplikacji TeamWork i prezentuje je w wizualnie atrakcyjny sposób na timeline'ach czasowych. System ma możliwość:
+        Moim zadania było stworzenie aplikacji, która zczytuje aktywne projekty z aplikacji TeamWork i prezentuje je w wizualnie atrakcyjny sposób na timeline`ach czasowych. System ma możliwość:
         <ul>
           <li>dodania kamieni milowych (milestones)</li>
           <li>akceptacji wykonania projektu/milestone</li>
