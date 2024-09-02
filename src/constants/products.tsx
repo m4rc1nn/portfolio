@@ -107,7 +107,7 @@ export const products = [
     content: (
       <div>
         <p>
-        Moim zadania było dokładne odwzorowanie projektu graficznego, który został stworzony zgodnie z key visual marki Remington. Podczas tworzenia landing page`a Remington One dbałem o to, żeby strona była zgodna z dobrymi zasadami programowania oraz jednocześnie przyjazna dla użytkowników. W trakcie kampanii otrzymałem zlecenie na ASAP na dodadnie formularza mailego, który miał zostać spięty razem z zaszyfrowaną bazą danych osobowych (RODO) z możliwością przeglądania zgłoszeń przez użytkowników z odpowiednimi uprawnieniami - udało się temat zamknąć 2 dni przed deadlinem.
+        Moim zadania było dokładne odwzorowanie projektu graficznego, który został stworzony zgodnie z key visual marki Remington. Podczas tworzenia landing page`a Remington One dbałem o to, żeby strona była zgodna z dobrymi zasadami programowania oraz jednocześnie przyjazna dla użytkowników. W trakcie kampanii otrzymałem zlecenie na ASAP na dodadnie formularza mailowego, który miał zostać spięty razem z zaszyfrowaną bazą danych osobowych (RODO) z możliwością przeglądania zgłoszeń przez użytkowników z odpowiednimi uprawnieniami - udało się temat zamknąć przed deadlinem.
         </p>
         <p>
         Moim zadaniem było również dodanie niezbędnych narzędzi analitycznych, takich jak: Google Tag Manager, Cookie boota, Captcha, Meta Pixel.</p>
@@ -126,7 +126,7 @@ export const products = [
       <div>
         <p>
         Moim zadania było stworzenie strony zawierającej formularz dla klienta, po którego wypełnieniu otrzymywał wycenę projektu.
-        Algorytm miał za zadanie analizować wiele krytycznych danych dot. wyceny i perfekcyjnie dobierać cenę jednostkową do zmieniających się innych warunków projektu wybranych przez klienta. Wypełnione formularze były zapisywane w bazie i na ich podstawię była generowana umowa przez inny system.
+        Algorytm miał za zadanie analizować wiele krytycznych danych dot. wyceny i perfekcyjnie dobierać cenę jednostkową do zmieniających się innych warunków projektu wybranych przez klienta. Wypełnione formularze były zapisywane w bazie. Na ich podstawie generowane są docelowe oferty przez inny wewnętrzny system.
         </p>
         <p>
         Wszystko zostało spięte z prostym CMSem do sprawdzania wypełnionych formularzy i zapamiętywania ich.
@@ -153,6 +153,7 @@ export const products = [
           <li>przeglądanie historii projektowej</li>
         </ul>
         </p>
+        <p>Dzięki tej aplikacji zespół marketingu miał lepszy wgląd w obecny stan projektu. I pozwalał na lepsze zarządzanie wieloma projektami.</p>
       </div>
     ),
   },
