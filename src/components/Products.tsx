@@ -44,7 +44,7 @@ export const Products = () => {
                   >
                     {product.title}
                   </Heading>
-                  <Paragraph className="text-sm md:text-sm lg:text-sm mt-2 max-w-xl">
+                  <Paragraph className="text-sm md:text-sm lg:text-sm mt-2">
                     {product.description}
                   </Paragraph>
                 </div>

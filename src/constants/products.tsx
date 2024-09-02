@@ -74,12 +74,12 @@ export const products = [
     ),
   },
   {
-    title: "RCS-MobileApp - aplikacja mobilna do systemu RCS",
+    title: "RCS MobileApp - aplikacja mobilna do systemu RCS",
     description:
       "Zaprojektowanie i stworzenie aplikacji mobilnej do monitorowania wdrożenia kart produktowych rich-content.",
     thumbnail: ccs1,
     stack: ["React-Native", "React", "API", "Android", "Expo", "Push notifications", "charts"],
-    slug: "remongton-one-lp",
+    slug: "rcs-mobile-app",
     content: (
       <div>
         <p>
@@ -103,7 +103,7 @@ export const products = [
       "Implementacja wyglądu i działania strony internetowej na potrzeby kampanii marketingowej dla nowych produktów z serii Remington ONE.",
     thumbnail: ccs1,
     stack: ["HTML", "SCSS", "JavaScript", "API", "CI/CD"],
-    slug: "remongton-one-lp",
+    slug: "remington-one-lp",
     content: (
       <div>
         <p>
@@ -121,7 +121,7 @@ export const products = [
       "Zaprojektowanie i implementacja algorytmu obliczającego cene na podstawie wielu czynników podanych przez klienta.",
     thumbnail: ccs1,
     stack: ["Next.js", "React.js", "TailwindCSS", "API", "nodemailer", "Docker", "CI/CD"],
-    slug: "formularz-rich-content",
+    slug: "form-rich-content",
     content: (
       <div>
         <p>
@@ -162,7 +162,7 @@ export const products = [
       "Zaprojektowanie i implementacja systemu do szybkiego tworzenia komponentów przez drag-and-drop.",
     thumbnail: ccs1,
     stack: ["React.js", "TailwindCSS"],
-    slug: "harmonogram-teamwork",
+    slug: "generators",
     content: (
       <div>
         <p>
