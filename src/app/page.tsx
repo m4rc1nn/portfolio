@@ -11,10 +11,10 @@ export default function Home() {
       <span className="text-4xl">👋</span>
       <Heading className="font-black">Cześć! Jestem Marcin</Heading>
     </div>
-      <Paragraph className="max-w-xl mt-4">
-        Jestem <Highlight>Fullstack Developerem</Highlight>, który uwielbia tworzyć aplikacje Webowe.
+      <Paragraph className="mt-4">
+        Jestem <Highlight>Fullstack Developerem</Highlight>, który uwielbia tworzyć aplikacje webowe.
       </Paragraph>
-      <Paragraph className="max-w-xl mt-4">
+      <Paragraph className="mt-4">
         Specjalizuje się w takich technologiach jak: <br /> <Highlight>Next.js</Highlight> <Highlight>React.js</Highlight> <Highlight>Node.js</Highlight> <Highlight>MySQL</Highlight> <Highlight>REST API</Highlight>
       </Paragraph>
       <Heading

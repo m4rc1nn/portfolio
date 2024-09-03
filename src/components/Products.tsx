@@ -31,16 +31,18 @@ export const Products = () => {
               key={product.href}
               className="group flex flex-col md:flex-row gap-4 md:gap-y-0 rounded-md"
             >
-              <Image
-                src={product.thumbnail}
-                alt="thumbnail"
-                className="rounded-md max-w-full md:max-w-[200px] object-contain"
-              />
+              <div className="rounded-md max-w-full md:max-w-[200px] overflow-hidden flex justify-center items-center">
+                <Image
+                  src={product.thumbnail}
+                  alt="thumbnail"
+                  className="w-full object-contain group-hover:scale-105 transition-all duration-300"
+                />
+              </div>
               <div className="flex flex-col justify-between">
                 <div>
                   <Heading
                     as="h4"
-                    className="font-black text-lg md:text-xl lg:text-2xl group-hover:font-accent"
+                    className="font-black text-lg md:text-xl lg:text-2xl"
                   >
                     {product.title}
                   </Heading>

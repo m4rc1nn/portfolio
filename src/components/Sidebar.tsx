@@ -40,7 +40,10 @@ export const Sidebar = () => {
               <Navigation setOpen={setOpen} />
             </div>
             <div>
-                <Badge href="/cv_marcin_kowalczyk.pdf" text="Zobacz CV" />
+                <Badge href="/pl_cv_marcin_kowalczyk.pdf" text="Zobacz CV" />
+            </div>
+            <div className="mt-4">
+                <Badge href="/en_cv_marcin_kowalczyk.pdf" text="Show CV" />
             </div>
           </motion.div>
         )}

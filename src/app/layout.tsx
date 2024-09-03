@@ -3,6 +3,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { twMerge } from "tailwind-merge";
+import NextTopLoader from "nextjs-toploader";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -22,12 +23,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pl">
+      <head>
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="16x16" />
+      </head>
       <body
         className={twMerge(
           inter.className,
           "flex antialiased h-screen overflow-hidden bg-gray-100"
         )}
       >
+        <NextTopLoader color="#085fc2"
+          showSpinner={false}
+          easing="ease"
+          speed={500}
+          height={3}
+          zIndex={9999999999999999} />
         <Sidebar />
         <div className="lg:pl-2 lg:pt-2 bg-gray-100 flex-1 overflow-y-auto">
           <div className="flex-1 bg-white min-h-screen lg:rounded-tl-xl border border-transparent lg:border-neutral-200 overflow-y-auto">

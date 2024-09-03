@@ -12,6 +12,11 @@ import ccs8 from "../../public/card-comment-app/8.png";
 import ccs9 from "../../public/card-comment-app/9.png";
 import ccs10 from "../../public/card-comment-app/10.png";
 
+import stealer1 from "../../public/stealer/1.png"
+import stealer2 from "../../public/stealer/2.png"
+import stealer3 from "../../public/stealer/3.png"
+import stealer4 from "../../public/stealer/4.png"
+
 import rma1 from "../../public/rcs-mobile-app/1.png"
 
 import remington1 from "../../public/remingtonone/1.png";
@@ -29,33 +34,9 @@ import generator2 from "../../public/generator/2.png"
 import generator3 from "../../public/generator/3.png"
 
 import { Highlight } from "@/components/Highlight";
+import Link from "next/link";
 
 export const products = [
-    {
-        href: "https://www.custommerce.pl",
-        title: "Custommerce",
-        description:
-            "Zaprojektowanie i zaimplementowanie strony głównej z ponad 40 podstronami. Podłączenie do autorskiego CMSa przy użyciu API. Strona dostosowana jest do obsługi wielu języków oraz posiada moduł szybkiego budowania nowych podstron.",
-        thumbnail: custommerce1,
-        stack: ["Next.js", "Tailwindcss", "API", "SSR", "framer-motion", "next-intl", "Docker"],
-        slug: "custommerce-home-page",
-        content: (
-            <div>
-                <p>Czas pracy nad całym systemem trwał od maja i planowane zakończenie to koniec października.</p>
-                <p>Strona posiada takie moduły jak:</p>
-                <ul>
-                    <li>system metamorfoz</li>
-                    <li>system case-study z dynamicznie zmieniającymi się statystykami live</li>
-                    <li>
-                        system portfolio zintegrowany z zewnętrznym systemem RCS, który aktualizuje informację o
-                        wdrożeniu
-                    </li>
-                    <li>system blogowy</li>
-                </ul>
-                <p>Strona serwowana jest przy użyciu CI/CD razem z aktywnym cachowaniem.</p>
-            </div>
-        ),
-    },
     {
         title: "CardCommentsApp",
         description:
@@ -111,6 +92,62 @@ export const products = [
                 <Image src={ccs8} alt="Card Comment App view" />
                 <Image src={ccs9} alt="Card Comment App view" />
                 <Image src={ccs10} alt="Card Comment App view" />
+            </div>
+        ),
+    },
+    {
+        href: "https://www.custommerce.pl",
+        title: "Custommerce",
+        description:
+            "Zaprojektowanie i zaimplementowanie strony głównej z ponad 40 podstronami. Podłączenie do autorskiego CMSa przy użyciu API. Strona dostosowana jest do obsługi wielu języków oraz posiada moduł szybkiego budowania nowych podstron.",
+        thumbnail: custommerce1,
+        stack: ["Next.js", "Tailwindcss", "API", "SSR", "framer-motion", "next-intl", "Docker"],
+        slug: "custommerce-home-page",
+        content: (
+            <div>
+                <p>Czas pracy nad całym systemem trwał od maja i planowane zakończenie to koniec października.</p>
+                <p>Strona posiada takie moduły jak:</p>
+                <ul>
+                    <li>system metamorfoz</li>
+                    <li>system case-study z dynamicznie zmieniającymi się statystykami live</li>
+                    <li>
+                        system portfolio zintegrowany z zewnętrznym systemem RCS, który aktualizuje informację o
+                        wdrożeniu
+                    </li>
+                    <li>system blogowy</li>
+                </ul>
+                <p>Strona serwowana jest przy użyciu CI/CD razem z aktywnym cachowaniem.</p>
+            </div>
+        ),
+    },
+    {
+        href: "https://www.stealer.pl",
+        title: "Stealer - Zalando-Lounge Software",
+        description:
+            "Mój autorski projekt systemu automatyzacji zakupów na stronie zalando-lounge.pl. Działa od 2019 roku.",
+        thumbnail: stealer1,
+        stack: ["Next.js", "React.js", "API", "PHP", "HTML", "CSS", "Tampermonkey", "JavaScript", "React-Native", "Przelewy24"],
+        slug: "stealer-project",
+        content: (
+            <div>
+                <p>Pierwsza wersja wtyczki powstała w 2019 roku. Zawierała ona podstawowe funkcjonalności, cały kod liczył do 300 linijek.</p>
+                <p>Początkowo sprzedaż odbywała się poprzez grupy na Facebooku.</p>
+                <p>Z biegiem czasu oprogramowanie rosło w linie kodu i obecnie liczy ponad 100 tysięcy linijek kodu.</p>
+                <p>Sysztem zawiera takie funkcjonalności jak:</p>
+                <ul>
+                    <li>autorski system licencji działający w oparciu o generowane losowo klucze</li>
+                    <li>system automatycznych płatności działający w oparciu o Przelewy24</li>
+                    <li>panel klienta, w którym może śledzić całą swoją działalność i statystyki swoich zakupów</li>
+                    <li>automatyczny system wykrywania problemów z konfiguracją kliencką</li>
+                    <li>aplikację mobilną, która przenosi funkcjonalność wtyczki do aplikacji mobilnej - aplikacja była dostępna w Sklepie Play.</li>
+                </ul>
+                <p>Przez cały okres oprogramowanie klienckie zostało zaaktualizowane ponad 120 razy.</p>
+                <p>Dodatkowo osobiście zajmuję się marketingiem, obsługą klienta i pomocą techniczną oraz nagrywam filmy instruktażowe na Youtube (<Link href={"https://www.youtube.com/@mm_marcin3750/videos"} target="_blank">link do kanału</Link>)</p>
+                <p>Przez cały okres z oprogramowania skorzystało parę tysięcy osób, natomiast wersja próbna została pobrana ponad 20 tysięcy razy.</p>
+                
+                <Image src={stealer2} alt="Stealer - zalando louge" />
+                <Image src={stealer3} alt="Stealer - zalando louge" />
+                <Image src={stealer4} alt="Stealer - zalando louge" />
             </div>
         ),
     },
