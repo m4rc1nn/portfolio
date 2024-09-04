@@ -54,7 +54,7 @@ export const Products = () => {
                   {product.stack?.map((stack: string, index: number) => (
                     <span
                       key={index}
-                      className="text-xs  md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary"
+                      className="text-base  md:text-md bg-gray-50 px-2 py-1 rounded-sm text-secondary"
                     >
                       {stack}
                     </span>
