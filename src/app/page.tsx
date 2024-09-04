@@ -21,14 +21,14 @@ export default function Home() {
           {["Next.js", "React.js", "Node.js", "MySQL", "REST API"].map((stack: string) => (
               <span
                 key={stack}
-                className="text-lg bg-gray-50 px-2 py-1 rounded-sm text-secondary">
+                className="text-base md:text-md bg-gray-50 px-2 py-1 rounded-sm text-secondary">
                 {stack}
               </span>
           ))}
       </div>
       <Heading
         as="h2"
-        className="font-black text-2xl md:text-3xl lg:text-4xl mt-20 mb-10"
+        className="font-black text-2xl md:text-3xl lg:text-4xl mt-12 mb-8"
       >
         Nad tym ostatnio pracowałem
       </Heading>
