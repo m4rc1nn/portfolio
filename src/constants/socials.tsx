@@ -24,7 +24,7 @@ export const socials = [
     icon: IconCode,
   },
   {
-    href: "https://skript.pl/",
+    href: "https://skript.pl/profil/3406-krejzolekpro/",
     label: "Skript.pl",
     icon: IconCode,
   },
